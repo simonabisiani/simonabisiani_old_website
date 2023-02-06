@@ -75,3 +75,9 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+@media only screen and (max-width:640px) {
+  .sqs-block-html {
+    margin: 10px;
+  }
+}
